@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(bgccc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Red Hat Mono", monospace;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 3vh 8vw;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+.container_1 {
+    text-align: center;
+    padding: 30vh 10vw;
+    padding-bottom: 15vh;
+}
+.heading {
+    color: white;
+    font-size: 6vw;
+    font-family: "Inconsolata", monospace;
+    font-weight: 800;
+}
+.headline {
+    color: #b18cff;
+    padding: 2vh 4vw;
+    font-size: 2.3vw;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 27vw;
+}
+.buts {
+    background-color: transparent;
+    padding: 2vh 3vw;
+    font-size: 1.5vw;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: "Inconsolata", monospace;
+    cursor: pointer;
+}
+.buts:hover {
+    background-color: #915fff;
+}
+.butts {
+    color: white;
+    text-decoration: none;
+}
+.container_2 {
+    color: white;
+}
+.container_2-heading {
+    text-align: center;
+    font-size: 6vw;
+    font-family: "Inconsolata", monospace;
+    font-weight: 900;
+}
+.container_2-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 13vh 10vw;
+}
+.container_2-card {
+    width: 16vw;
+    padding: 5vh 1vw;
+    padding-top: 5vw;
+    background-color: rgba(217, 217, 217, 0.2);
+    height: 30vh;
+}
+.container_2-card-heading {
+    font-size: 2.5vw;
+    text-align: center;
+}
+.container_2-card-icon {
+    text-align: center;
+    margin-top: 2vh;
+}
+.believe {
+    display: flex;
+    justify-content: center;
+    padding: 4vh 11vw;
+    color: #b18cff;
+    text-align: center;
+}
+.believe-super {
+    font-size: 15vh;
+    font-family: "Inter", sans-serif;
+}
+.believe-text {
+    font-size: 2vw;
+    padding-top: 2.5vw;
+}
+.effortsby-heading {
+    font-family: "Inconsolata", monospace;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    padding: 6vh;
+    padding-bottom: 0vh;
+    font-weight: 800;
+}
+.effortsby-cards {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15vh 20vw;
+    padding-top: 10vh;
+}
+.effortsby-card {
+    width: 7vw;
+}
+.effortsby-card-name {
+    font-size: 2.4vw;
+    font-family: "Inconsolata", monospace;
+    text-align: center;
+}
+.effortsby-card-contact {
+    width: 7vw;
+    padding: 1vh;
+    text-align: center;
+}
+.effortsby-card-contact > a {
+    margin: 5px;
+}
+.effortsby-card-contact > a > img {
+    width: 4vh;
+    height: 4vh;
+}
